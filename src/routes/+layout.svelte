@@ -11,8 +11,12 @@
 			<svelte:fragment slot="lead">
 				<strong class="text-xl uppercase">PressureInc</strong>
 			</svelte:fragment>
-			<!-- <svelte:fragment slot="trail">
-				<a
+			<svelte:fragment slot="trail">
+				<nav>
+					<a class="btn btn-sm variant-ghost-surface" href="/"> Home </a>
+					<a class="btn btn-sm variant-ghost-surface" href="/upgrades"> Upgrades </a>
+				</nav>
+				<!-- <a
 					class="btn btn-sm variant-ghost-surface"
 					href="https://discord.gg/EXqV7W8MtY"
 					target="_blank"
@@ -35,8 +39,8 @@
 					rel="noreferrer"
 				>
 					GitHub
-				</a>
-			</svelte:fragment> -->
+				</a> -->
+			</svelte:fragment>
 		</AppBar>
 	</svelte:fragment>
 	<!-- Page Route Content -->
