@@ -16,6 +16,6 @@
 	</button>
 
 	<strong class="h4 pt-2">
-		<a href="{base}/"><span class="text-primary-500">Pressure</span>Inc</a>
+		<a href="{base}/" class=" h2"><span class="text-primary-500">Pressure</span>Inc</a>
 	</strong>
 </div>
