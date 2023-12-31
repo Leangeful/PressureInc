@@ -1,7 +1,7 @@
 <script lang="ts">
 	import '../app.postcss';
-	import { base } from '$app/paths';
 	import { AppShell, AppBar } from '@skeletonlabs/skeleton';
+	import Navigation from '$lib/components/Navigation.svelte';
 </script>
 
 <!-- App Shell -->
@@ -13,10 +13,7 @@
 				<strong class="text-xl uppercase">PressureInc</strong>
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
-				<nav>
-					<a class="btn btn-sm variant-ghost-surface" href={base}> Home </a>
-					<a class="btn btn-sm variant-ghost-surface" href="{base}/upgrades"> Upgrades </a>
-				</nav>
+				<Navigation />
 				<!-- <a
 					class="btn btn-sm variant-ghost-surface"
 					href="https://discord.gg/EXqV7W8MtY"
@@ -24,23 +21,7 @@
 					rel="noreferrer"
 				>
 					Discord
-				</a>
-				<a
-					class="btn btn-sm variant-ghost-surface"
-					href="https://twitter.com/SkeletonUI"
-					target="_blank"
-					rel="noreferrer"
-				>
-					Twitter
-				</a>
-				<a
-					class="btn btn-sm variant-ghost-surface"
-					href="https://github.com/skeletonlabs/skeleton"
-					target="_blank"
-					rel="noreferrer"
-				>
-					GitHub
-				</a> -->
+				</a>-->
 			</svelte:fragment>
 		</AppBar>
 	</svelte:fragment>
