@@ -7,16 +7,17 @@ const config = {
 	preprocess: [vitePreprocess()],
 
 	kit: {
-		adapter: adapter({
-			/* pages: 'build',
+		adapter:
+			adapter(/* {
+			pages: 'build',
 			assets: 'build',
 			fallback: undefined,
 			precompress: false,
-			strict: true */
-		}),
+			strict: true
+		} */),
 
 		paths: {
-			//base: process.env.NODE_ENV === 'production' ? '/PressureInc' : ''
+			//base: process.env.NODE_ENV === 'production' ? '/PressureInc' : '' //works on itch
 			base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
 		}
 	}
