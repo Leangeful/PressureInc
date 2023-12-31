@@ -1,5 +1,6 @@
 <script lang="ts">
 	import '../app.postcss';
+	import { base } from '$app/paths';
 	import { AppShell, AppBar } from '@skeletonlabs/skeleton';
 </script>
 
@@ -13,8 +14,8 @@
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
 				<nav>
-					<a class="btn btn-sm variant-ghost-surface" href="/"> Home </a>
-					<a class="btn btn-sm variant-ghost-surface" href="/upgrades"> Upgrades </a>
+					<a class="btn btn-sm variant-ghost-surface" href="{base}/"> Home </a>
+					<a class="btn btn-sm variant-ghost-surface" href="{base}/upgrades"> Upgrades </a>
 				</nav>
 				<!-- <a
 					class="btn btn-sm variant-ghost-surface"
